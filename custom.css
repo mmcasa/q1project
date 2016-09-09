@@ -76,17 +76,17 @@ p{
 }
 
 @-webkit-keyframes color-change {
-    0% { color: yellow; }
+    0% { color: #02AC1E; }
     50% { color: #2011E2; }
     100% { color: #D06; }
 }
 @-moz-keyframes color-change {
-  0% { color: yellow; }
+  0% { color: #02AC1E; }
   50% { color: #2011E2; }
   100% { color: #D06; }
 }
 @-ms-keyframes color-change {
-  0% { color: yellow; }
+  0% { color: #02AC1E; }
   50% { color: #2011E2; }
   100% { color: #D06; }
 }
@@ -96,7 +96,7 @@ p{
   100% { color: #D06; }
 }
 @keyframes color-change {
-  0% { color: #EB01A5; }
+  0% { color: #02AC1E; }
   50% { color: #2011E2; }
   100% { color: #D06; }
 }
