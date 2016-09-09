@@ -9,7 +9,7 @@
 
 
     <!-- css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="custom.css">
 
@@ -23,53 +23,61 @@
 </head>
 
 <body>
+  <header class="H1">
 
+    <div class="container-fluid">
         <div class="row">
-
-
-            <header class="H1">
-              <div class="container">
-              <h1 class="oh1">Qizz</h1>
-              <canvas id="demoCanvas" width="800" height="300"></canvas>
+              <marquee behavior="scroll" direction="left"><h1 class="oh1"><p>Trivia Time!!!</p></h1></marquee>
+              <marquee behavior="scroll" direction="right"><img src="homer2.png" width="200" height="200" alt="smile"></marquee>
             </header>
-          </div>
         </div>
+        <div class="container">
+          <br><br>
 
-    <div class="container">
-      <div class="row">
-          <div class="questionbox">
-            <form>
-            <div id="question">Question goes here</div>
+            <div class="questionbox">
+                <h3 class="Logoo">You Ready?</h3>
+                <form id="myform">
+                    <div id="question">Question goes here</div>
+                    <br></br>
 
-            <h3>Test your Skillz</h3>
-            <textarea class="form-control" id="submit" placeholder="Type your answer" rows="3"></textarea>
+                    <textarea class="form-control" id="answer" placeholder="Type your answer" rows="1"></textarea>
+                    <div class="rbox"><p id="resultss"></p></div>
+                    <marquee behavior="scroll" direction="right">
+                  <img src="images.jpeg" width="150" height="150" alt="smile">
+                  </marquee>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                    <aside class="right">
+                        <div id="rightCounter">right</div>
+                        <div class="scoreR"><p>0</p>
+                        </div>
+                    </aside>
 
-              <textarea class="form-control" id="resultss" placeholder="answer" rows="3"></textarea>
+                    <aside class="wrong">
+                        <div id="wrongCounter">wrong</div>
+                        <div class="scoreW"><p>0</p></div>
+                    </aside>
 
-
-
-            <aside class="right"><div id="rightCounter">right</div></aside>
-            <aside class="left"><div id="wrongCounter">wrong</div></aside>
-            <button id="sub">
-              <p>
-                Submit
-              </p>
-</button>
-            </form>
-          </div>
+                    <button id="sub"><p>Submit</p></button>
+                    <br></br>
+                    <button id="reset"><p>Play Again?</p></button>
+                </form>
+            </div>
       </div>
-
     </div>
 
+      <marquee behavior="scroll" direction="right">
 
-    <footer>
+<img src="trivia-8.png" width="400" height="350" alt="play">
 
-    </footer>
+</marquee>
 
-
+  <footer>
+      </footer>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script type="text/javascript" src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
 </body>
 

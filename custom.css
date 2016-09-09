@@ -1,24 +1,33 @@
-  .div-ext{
-    /*background-color: blue;*/
-  }
+body{
+
+  background-color: lightblue;
+
+}
   .boxr{
 text-align: right;
 border: 2px;
 border-color: black;
 border-style: solid;
   }
+
+
+
   #wrongCounter{
-text-align: center;;
+text-align: center;
 border: 2px;
 border-color: black;
 border-style: solid;
 float: right;
 height: 150px;
 width: 100px;
+margin-top: 33px;
+font-size: 30px;
   }
+
+
 .H1{
   background-color: blue;
-  height: 130px;
+  height: 150px;
 
 }
 
@@ -26,14 +35,84 @@ width: 100px;
   background-color: white;
   text-decoration-color: white;
   height: 1 px;
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
 
 }
 
-  .right{
+.scoreR{
+  display: fixed;
+  float: left;
+  text-align: center;
+  height: 150px;
+  width: 100px;
+  margin-left: -70px;
+  padding-top: 60px;
+  font-size: 60px;
+}
+.scoreW{
+  float: right;
+  text-align: center;
+  height: 150px;
+  width: 100px;
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: -90px;
+  font-size: 60px;
+}
 
+#question{
+    font-size: 20px;
 
+}
+
+p{
+    -webkit-animation: color-change 10s infinite;
+    -moz-animation: color-change 10s infinite;
+    -o-animation: color-change 10s infinite;
+    -ms-animation: color-change 10s infinite;
+    animation: color-change 10s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: yellow; }
+    50% { color: #2011E2; }
+    100% { color: #D06; }
+}
+@-moz-keyframes color-change {
+  0% { color: yellow; }
+  50% { color: #2011E2; }
+  100% { color: #D06; }
+}
+@-ms-keyframes color-change {
+  0% { color: yellow; }
+  50% { color: #2011E2; }
+  100% { color: #D06; }
+}
+@-o-keyframes color-change {
+  0% { color: #02AC1E; }
+  50% { color: #2011E2; }
+  100% { color: #D06; }
+}
+@keyframes color-change {
+  0% { color: #EB01A5; }
+  50% { color: #2011E2; }
+  100% { color: #D06; }
+}
+
+  }
+  #resultss{
+    text-align: center;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    height: 50px;
+  }
+  .rbox{
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    height: 50px;
   }
 
   #rightCounter{
@@ -44,18 +123,22 @@ border-style: solid;
 float: left;
 height: 150px;
 width: 100px;
+margin-top: 33px;
+font-size: 30px;
+
 }
 .form-control{
-  
+
 }
 
   .questionbox{
     text-align: center;
     border-style: solid;
     border-color: blue;
-    height: 353px;
+    height: 400px;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
+    background-color: white;
   }
   .head1{
     background-color: white;
@@ -63,9 +146,10 @@ width: 100px;
 
   .Logoo {
   font-family: 'Satisfy', cursive;
-  font-size:80px;
+  font-size:40px;
   z-index: 1000;
   text-align: center;
+  text-decoration-color: : blue;
 
   }
   .Logoob {
