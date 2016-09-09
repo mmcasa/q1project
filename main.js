@@ -47,7 +47,7 @@ $(document).ready(function() {
     newCall();
 
     function newCall() {
-        var url = "https://jservice.io/api/random";
+        var url = "http://jservice.io/api/random";
         var grabRandomQuestion = $.ajax({
             url: url,
             dataType: "json",
