@@ -1,6 +1,6 @@
 body{
 
-  background-color: lightblue;
+  background-color: black;
 
 }
   .boxr{
@@ -32,7 +32,7 @@ font-size: 30px;
 }
 
 .oh1{
-  background-color: white;
+  background-color: black;
   text-decoration-color: white;
   height: 1 px;
   font-size: 40px;
@@ -49,6 +49,7 @@ font-size: 30px;
   margin-left: -70px;
   padding-top: 60px;
   font-size: 60px;
+  color: white;
 }
 .scoreW{
   float: right;
