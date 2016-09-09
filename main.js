@@ -29,7 +29,7 @@ $(document).ready(function() {
             } else {
               $(".scoreW").text(( parseInt($(".scoreW").text() ) + 1 ));
               var buzzer = $('audio')[0];
-              
+
 
             }
         // }
@@ -47,7 +47,7 @@ $(document).ready(function() {
     newCall();
 
     function newCall() {
-        var url = "http://jservice.io/api/random";
+        var url = "https://jservice.io/api/random";
         var grabRandomQuestion = $.ajax({
             url: url,
             dataType: "json",
